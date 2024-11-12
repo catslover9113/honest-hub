@@ -1,0 +1,97 @@
+@tailwind base;
+
+@tailwind utilities;
+
+.reviews-section {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 15px;
+}
+
+
+.custom-card {
+    width: 800px; 
+    height: auto;  
+    float: inline-start;
+   
+}
+
+.customm-card {
+    width: 1100px; 
+    height: auto;  
+    float: inline-start;
+   
+}
+.card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-body {
+    padding: 10px 20px;
+    text-align: right;
+}
+
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.btn-outline-primary,
+.btn-outline-secondary {
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+
+.btn-outline-secondary {
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+
+
+.card-body .d-flex {
+    align-items: center;
+}
+
+
+.bi-heart,
+.bi-heart-fill,
+.bi-chat {
+    margin-right: 5px;
+}
+
+.product-image {
+    width: 50%; 
+    height: auto; 
+    object-fit: cover;
+   
+}
